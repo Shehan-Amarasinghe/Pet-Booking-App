@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abc"
+    tools:context=".OrderDetailsActivity">
+
+    <TextView
+        android:id="@+id/TextViewDDTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="128dp"
+        android:text="ORDER DETAILS"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_logo3"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <TextView
+        android:id="@+id/textView_logo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pet Booking"
+        android:textColor="@color/purpleDark"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <!--    New Line -->
+    <TextView
+        android:id="@+id/description1"
+        android:layout_width="347dp"
+        android:layout_height="79dp"
+        android:background="@color/colorBlack"
+        android:text="Labrador => Dog Name:Max Age:3yrs"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.265" />
+
+    <TextView
+        android:id="@+id/description2"
+        android:layout_width="0dp"
+        android:layout_height="79dp"
+        android:background="@color/colorBlack"
+        android:text="Color:White / Sex:Male / fees:Rs.15000   /Booked "
+        android:textColor="@color/yellowLight"
+        android:textSize="20sp"
+        android:textStyle="italic"
+
+        app:layout_constraintEnd_toEndOf="@+id/description1"
+        app:layout_constraintStart_toStartOf="@+id/description1"
+        app:layout_constraintTop_toBottomOf="@+id/description1" />
+
+    <TextView
+        android:id="@+id/description3"
+        android:layout_width="347dp"
+        android:layout_height="79dp"
+        android:background="@color/colorBlack"
+        android:text="Exotics Short Hair => Cat Name:Sem Age:3yrs"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="@id/description2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.592" />
+
+    <TextView
+        android:id="@+id/description4"
+        android:layout_width="0dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="212dp"
+        android:background="@color/colorBlack"
+        android:text="Color:White / Sex:Male / fees:Rs.15000   /Booked "
+        android:textColor="@color/yellowLight"
+        android:textSize="20sp"
+
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="@+id/description1"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/description3"
+        app:layout_constraintTop_toBottomOf="@+id/description1" />
+
+
+    <!--    <ListView-->
+    <!--        android:id="@+id/listViewDD"-->
+    <!--        android:layout_width="344dp"-->
+    <!--        android:layout_height="523dp"-->
+    <!--        android:layout_marginStart="-40dp"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:layout_marginEnd="-40dp"-->
+    <!--        app:layout_constraintEnd_toEndOf="@+id/TextViewDDTitle"-->
+    <!--        app:layout_constraintHorizontal_bias="0.53"-->
+    <!--        app:layout_constraintStart_toStartOf="@id/TextViewDDTitle"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/TextViewDDTitle"/>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/buttonODBack"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="160dp"-->
+    <!--        android:layout_marginBottom="16dp"-->
+    <!--        android:text="BACK"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
